@@ -1,10 +1,10 @@
 <?php
 /* ========================================================
- * File           : dumpyaml.php
- * Date           : July 15, 2010
- * Author         : Jonathan Franzone
- * Author Website : http://www.franzone.com
+ * File           : main.php
+ * Date           : August 18, 2019
+ * Author         : Oussama Ben Ghorbel
  *
+ * This file was based on Jonathan Franzone (http://www.franzone.com) dumpyaml.php file
  * Script to generate YAML (http://www.yaml.org/) from
  * a MySQL database. Will generate YAML for either all
  * tables in the specified database, only the specified
