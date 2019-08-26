@@ -17,3 +17,6 @@ Usage : main.php [options] -d <database>
   -q \"<query>\"    SQL query to dump
   -qn <query name>  Name of the \"table\" when using the -q option
   -n              Convert table names to class names
+
+Example:
+        main.php -h localhost -u root -p pass -d test -f dump.yaml
