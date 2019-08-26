@@ -10,7 +10,6 @@ Usage :
         main.php [options] -d <database> -t table1,table2
         main.php [options] -d <database> -q \"SELECT * FROM `mytable`\" -qn custom_name
  
-<<<<<<< HEAD
   -h <host>       MySQL database host
   -u <user>       MySQL username
   -p <pass>       MySQL password
@@ -22,16 +21,5 @@ Usage :
   -n              Convert table names to class names
 
 Example:
+
         main.php -h localhost -u root -p pass -d test -f dump.yaml
-=======
- 
-  * -h <host>       MySQL database host
-  * -u <user>       MySQL username
-  * -p <pass>       MySQL password
-  * -d <database>   Name of the MySQL database to dump
-  * -t <table(s)>   Comma delimited list of tables to dump from database
-  * -f <file>       File to dump to
-  * -q \"<query>\"    SQL query to dump
-  * -qn <query name>  Name of the \"table\" when using the -q option
-  * -n              Convert table names to class names
->>>>>>> 5c6c13927b35492e38d7d45adc42dc51bff7b066
